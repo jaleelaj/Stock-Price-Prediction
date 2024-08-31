@@ -5,26 +5,7 @@ Project Structure
 stock_price_prediction.ipynb: The Jupyter Notebook containing the code for data preprocessing, model building, training, evaluation, and visualization.
 Dataset
 NFLX.csv: The dataset used in this project, containing historical stock prices of Netflix, including features like Open, High, Low, Volume, and Close prices.
-Setup and Installation
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/stock-price-prediction.git
-cd stock-price-prediction
-Create a Virtual Environment (Optional but Recommended):
-
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install the Required Libraries:
-
-Ensure you have the necessary Python libraries installed:
-
-bash
-Copy code
-pip install numpy pandas matplotlib scikit-learn
 Data Processing Steps
 Loading the Data:
 
